@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    border: 2px solid white;
+    flex: 1;
+    background-color: aliceblue;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    border-bottom: 1px solid gray;
+    padding: 12px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+.content{
+    border: 2px solid aliceblue;
+    flex: 8;
+    background-color: lightgray;
+    padding: 20px;
+}
